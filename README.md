@@ -47,7 +47,7 @@ Isso exibirá a versão instalada do Vagrant no seu sistema.
 - Sistema Operacional: Ubuntu Server 20.04 LTS.
 - Interface de Rede 1 (eth0): IP Privado Estático (192.168.50.10).
 - Função: Servidor Web (instalar o Apache).
-- Pasta Compartilhada: /var/www/html na máquina host deve ser compartilhada com /var/www/html na VM1.
+- Pasta Compartilhada: /vagrant/shared_folder/ na máquina host deve ser compartilhada com /var/www/html na VM1.
 # VM2:
 - Sistema Operacional: Ubuntu Server 20.04 LTS.
 - Interface de Rede 1 (eth0): IP Privado Estático (192.168.50.11).
