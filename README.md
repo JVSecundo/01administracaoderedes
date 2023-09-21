@@ -19,6 +19,7 @@ Abra o terminal no seu sistema Linux. Isso pode ser feito pressionando `Ctrl + A
 Antes de instalar qualquer novo software, é uma boa prática atualizar os pacotes do sistema. Execute os seguintes comandos no terminal:
 
 sudo apt update
+
 sudo apt upgrade
 
 # Passo 3: Instale o VirtualBox
