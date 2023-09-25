@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     end
 
     # Configurar pasta compartilhada 
-    vm1.vm.synced_folder "shared_folder", "/var/www/html"
+    vm1.vm.synced_folder "./shared_folder", "/var/www/html"
 
     vm1.vm.provision "shell", path: "vm1.sh"
   end
