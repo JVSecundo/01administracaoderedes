@@ -10,10 +10,5 @@ sudo ip route add default via 192.168.56.12
 sudo apt-get update
 sudo apt-get install -y apache2
 
-# Copie arquivos da pasta compartilhada para a pasta do servidor web
-# Certifique-se de que a pasta compartilhada esteja montada em /var/www/html, ou no caminnho da pasta necessaria
-# Os arquivos da web devem estar na pasta compartilhada para serem acessíveis pela VM1
-cp -r /vagrant/shared_folder/* /var/www/html/            
-
 # Reinicie o serviço do servidor web, se necessário
 sudo systemctl restart apache2
